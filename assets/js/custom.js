@@ -159,12 +159,21 @@ function hitungBMI() {
 
   $(document).ready(function() {
     $("#imt_muncul").click(function() {
-        $("#imt_hasil").show("slow");
+        $("#imt_hasil,#kesimpulan_imt").show("slow");
     });
     $("#tekanan_darah_muncul").click(function() {
-        $("#tekanan_darah_hasil").show("slow");
+        $("#tekanan_darah_hasil,#kesimpulan_TD").show("slow");
     });
     $("#gula_muncul").click(function() {
-        $("#gula_hasil").show("slow");
-});
+        $("#gula_hasil,#kesimpulan_GD").show("slow");
+    });
+    //     $("#imt_muncul").click(function() {
+    //     $("#kesimpulan_imt").show("slow");
+    // }); 
+    //     $("#tekanan_darah_muncul").click(function() {
+    //     $("#kesimpulan_TD").show("slow");
+    // }); 
+    //     $("#gula_muncul").click(function() {
+    //     $("#kesimpulan_GD").show("slow");
+    // });
 });
